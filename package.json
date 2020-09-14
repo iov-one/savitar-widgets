@@ -5,7 +5,8 @@
    "dependencies": {
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
-      "react-scripts": "3.4.3"
+      "react-scripts": "3.4.3",
+      "swap-sdk": "https://github.com/savitar-exchange/swap-sdk.git"
    },
    "scripts": {
       "start": "react-scripts start",
