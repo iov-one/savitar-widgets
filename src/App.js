@@ -19,6 +19,20 @@ function App() {
       amount_editable: true,
    };
 
+   // embedded
+   const embeddedStarname = new Swap.Widget( {
+      type: "embed",
+      embedContainerId: "div-starname",
+      mode: "production",
+      config: configStarname,
+   } );
+   const embeddedTokens = new Swap.Widget( {
+      type: "embed",
+      embedContainerId: "div-tokens",
+      mode: "production",
+      config: configTokens,
+   } );
+
    // modal buttons
    const modalButtonStarname = new Swap.Widget( {
       type: "modal",
@@ -49,6 +63,8 @@ function App() {
 
    // initializations
    [
+      //embeddedStarname,
+      //embeddedTokens,
       modalButtonStarname,
       modalButtonTokens,
       modalSpanStarname,
@@ -63,6 +79,11 @@ function App() {
       display: "flex",
       justifyContent: "space-between",
       width: "100%",
+   };
+   const styleEmbedded = {
+      border: "1px solid red",
+      height: "67%",
+      width: "49%",
    };
    const styleSpan = {
       border: "1px solid black",
@@ -96,9 +117,16 @@ function App() {
                </span>
             </div>
          </fieldset>
+         {false &&
          <fieldset style={margin}>
             <legend>Embedded Widget</legend>
+            <div style={styleDiv}>
+               <div id="div-starname" style={styleEmbedded} />
+
+               <div id="div-tokens" style={styleEmbedded} />
+            </div>
          </fieldset>
+         }
       </div>
    );
 }
