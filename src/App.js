@@ -1,6 +1,9 @@
 import React from "react";
 import * as Swap from "swap-sdk";
 
+// mode
+const mode = "production";
+
 
 // configuration for buying a starname
 const configStarname = {
@@ -22,13 +25,13 @@ const configTokens = {
 const embeddedStarname = new Swap.Widget( {
    type: "embed",
    embedContainerId: "div-starname",
-   mode: "production",
+   mode: mode,
    config: configStarname,
 } );
 const embeddedTokens = new Swap.Widget( {
    type: "embed",
    embedContainerId: "div-tokens",
-   mode: "production",
+   mode: mode,
    config: configTokens,
 } );
 
@@ -36,13 +39,13 @@ const embeddedTokens = new Swap.Widget( {
 const modalButtonStarname = new Swap.Widget( {
    type: "modal",
    buttonId: "button-starname",
-   mode: "production",
+   mode: mode,
    config: configStarname,
 } );
 const modalButtonTokens = new Swap.Widget( {
    type: "modal",
    buttonId: "button-tokens",
-   mode: "production",
+   mode: mode,
    config: configTokens,
 } );
 
@@ -50,13 +53,13 @@ const modalButtonTokens = new Swap.Widget( {
 const modalSpanStarname = new Swap.Widget( {
    type: "modal",
    buttonId: "span-starname", // use buttonId despite applyling to a span
-   mode: "production",
+   mode: mode,
    config: configStarname,
 } );
 const modalSpanTokens = new Swap.Widget( {
    type: "modal",
    buttonId: "span-tokens", // use buttonId despite applyling to a span
-   mode: "production",
+   mode: mode,
    config: configTokens,
 } );
 
