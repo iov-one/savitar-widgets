@@ -1,5 +1,6 @@
 {
    "name": "savitar-widgets",
+   "homepage": "https://iov-one.github.io/savitar-widgets/",
    "version": "0.1.0",
    "private": true,
    "dependencies": {
