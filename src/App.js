@@ -105,6 +105,10 @@ class App extends React.Component {
                Check out Savitar's <a href="https://github.com/savitar-exchange/swap-sdk" target="_blank" rel="noopener noreferrer">swap-sdk</a> for more configuration options and event listener documentation.
             </p>
 
+            <p>
+               The code for this web page is <a href="https://github.com/iov-one/savitar-widgets/blob/master/src/App.js" target="_blank" rel="noopener noreferrer">here</a>.
+            </p>
+
             <fieldset style={margin}>
                <legend>Modal Widget</legend>
                <div style={styleDiv}>
