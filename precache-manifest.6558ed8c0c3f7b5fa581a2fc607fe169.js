@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8937004f4129c026f7c0711dec92152b",
+    "revision": "235eeb0905bbbb52ad502001698e7939",
     "url": "/savitar-widgets/index.html"
   },
   {
-    "revision": "1156274da7f9c022fa56",
+    "revision": "91331f2f3cd736880bc9",
     "url": "/savitar-widgets/static/css/main.82814904.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/savitar-widgets/static/js/2.51dfc759.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1156274da7f9c022fa56",
-    "url": "/savitar-widgets/static/js/main.c56e725e.chunk.js"
+    "revision": "91331f2f3cd736880bc9",
+    "url": "/savitar-widgets/static/js/main.0a5837ae.chunk.js"
   },
   {
     "revision": "c96d101759dccd667482",
