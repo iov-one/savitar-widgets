@@ -19,6 +19,7 @@ const configTokens = {
    currency: "iov",
    amount: 100,
    amount_editable: true,
+   delivery_address: "star1...",
 };
 
 // embedded widget
