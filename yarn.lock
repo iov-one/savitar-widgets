@@ -9699,7 +9699,7 @@ svgo@^1.0.0, svgo@^1.2.2:
 
 "swap-sdk@https://github.com/savitar-exchange/swap-sdk.git":
   version "1.0.1"
-  resolved "https://github.com/savitar-exchange/swap-sdk.git#d04c953b854579c7a2eb7f98804d8a766341065c"
+  resolved "https://github.com/savitar-exchange/swap-sdk.git#a467f26baf8a4c8c63338c885e879bd6c22cb330"
 
 symbol-tree@^3.2.2:
   version "3.2.4"
