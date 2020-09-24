@@ -4,6 +4,11 @@ import * as Swap from "swap-sdk";
 // mode
 const mode = "production";
 
+/* @jloup
+As a general rule : if you do not specify payment_type in configuration, everything is optional even delivery address.
+- Buying domain is a custom flow, you must set payment_type=iov and delivery_address
+- Buying IOVs: you can leave payment_type empty and set currency=iov
+*/
 
 // configuration for buying a starname
 const configStarname = {
@@ -13,13 +18,11 @@ const configStarname = {
 };
 // configuration for buying IOV tokens
 const configTokens = {
-   payment_type: "merchant",
    email: "tokens@example.com",
    email_editable: true,
    currency: "iov",
-   amount: 100,
+   amount: 10,
    amount_editable: true,
-   delivery_address: "star1...",
 };
 
 // embedded widget
