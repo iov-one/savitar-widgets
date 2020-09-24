@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/savitar-widgets/precache-manifest.6558ed8c0c3f7b5fa581a2fc607fe169.js"
+  "/savitar-widgets/precache-manifest.239115ea26ac467d34ef1e3dfdebe2ae.js"
 );
 
 self.addEventListener('message', (event) => {

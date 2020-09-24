@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/savitar-widgets/static/css/main.82814904.chunk.css",
-    "main.js": "/savitar-widgets/static/js/main.0a5837ae.chunk.js",
-    "main.js.map": "/savitar-widgets/static/js/main.0a5837ae.chunk.js.map",
+    "main.js": "/savitar-widgets/static/js/main.14850650.chunk.js",
+    "main.js.map": "/savitar-widgets/static/js/main.14850650.chunk.js.map",
     "runtime-main.js": "/savitar-widgets/static/js/runtime-main.1e4401db.js",
     "runtime-main.js.map": "/savitar-widgets/static/js/runtime-main.1e4401db.js.map",
-    "static/js/2.51dfc759.chunk.js": "/savitar-widgets/static/js/2.51dfc759.chunk.js",
-    "static/js/2.51dfc759.chunk.js.map": "/savitar-widgets/static/js/2.51dfc759.chunk.js.map",
+    "static/js/2.d454a4c3.chunk.js": "/savitar-widgets/static/js/2.d454a4c3.chunk.js",
+    "static/js/2.d454a4c3.chunk.js.map": "/savitar-widgets/static/js/2.d454a4c3.chunk.js.map",
     "index.html": "/savitar-widgets/index.html",
-    "precache-manifest.6558ed8c0c3f7b5fa581a2fc607fe169.js": "/savitar-widgets/precache-manifest.6558ed8c0c3f7b5fa581a2fc607fe169.js",
+    "precache-manifest.239115ea26ac467d34ef1e3dfdebe2ae.js": "/savitar-widgets/precache-manifest.239115ea26ac467d34ef1e3dfdebe2ae.js",
     "service-worker.js": "/savitar-widgets/service-worker.js",
     "static/css/main.82814904.chunk.css.map": "/savitar-widgets/static/css/main.82814904.chunk.css.map",
-    "static/js/2.51dfc759.chunk.js.LICENSE.txt": "/savitar-widgets/static/js/2.51dfc759.chunk.js.LICENSE.txt"
+    "static/js/2.d454a4c3.chunk.js.LICENSE.txt": "/savitar-widgets/static/js/2.d454a4c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1e4401db.js",
-    "static/js/2.51dfc759.chunk.js",
+    "static/js/2.d454a4c3.chunk.js",
     "static/css/main.82814904.chunk.css",
-    "static/js/main.0a5837ae.chunk.js"
+    "static/js/main.14850650.chunk.js"
   ]
 }
