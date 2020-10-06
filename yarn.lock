@@ -9696,8 +9696,8 @@ svgo@^1.0.0, svgo@^1.2.2:
     util.promisify "~1.0.0"
 
 "swap-sdk@https://github.com/savitar-exchange/swap-sdk.git":
-  version "1.0.1"
-  resolved "https://github.com/savitar-exchange/swap-sdk.git#a467f26baf8a4c8c63338c885e879bd6c22cb330"
+  version "1.0.4"
+  resolved "https://github.com/savitar-exchange/swap-sdk.git#6d88a0cc907142045bdf999699e89429198ab7d8"
 
 symbol-tree@^3.2.2:
   version "3.2.4"

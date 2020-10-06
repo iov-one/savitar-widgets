@@ -13,15 +13,13 @@ As a general rule : if you do not specify payment_type in configuration, everyth
 // configuration for buying a starname
 const configStarname = {
    payment_type: "iov",
-   email: "starname@example.com",
    email_editable: true,
 };
 // configuration for buying IOV tokens
 const configTokens = {
-   email: "tokens@example.com",
    email_editable: true,
    currency: "iov",
-   amount: 10,
+   amount: 25,
    amount_editable: true,
 };
 
